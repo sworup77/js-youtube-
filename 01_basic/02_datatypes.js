@@ -1,0 +1,1 @@
+// alert(3+3) we are using the node js not a browser 
