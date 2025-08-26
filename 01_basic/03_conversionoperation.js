@@ -12,3 +12,30 @@ let valueinnumber = Number(score);
  let stringnumber = String(somenumber);
  console.log(stringnumber);
  console.log(typeof stringnumber);
+
+
+
+ //operation 
+ let value = 5;
+ let negativevalue = -value;
+ console.log(negativevalue);
+
+ console.log(2+2);
+  console.log(2-2);
+   console.log(2*2);
+    console.log(2**2);
+     console.log(2/2);
+
+
+     console.log("1" + 2);
+     console.log(1 + "2");
+     console.log("1"+2+2);
+     console.log(1+2+"2");
+
+     console.log(+true);
+     console.log(+"")
+
+     let gamecounter = 100;
+     gamecounter++;
+     console.log(gamecounter);
+ 
