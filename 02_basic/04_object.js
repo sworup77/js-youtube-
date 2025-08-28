@@ -25,6 +25,6 @@ console.log(tinderuser);
 const obj3= {...obj1, ...obj2};
 console.log(obj3);
 
-console.log(Object.keys(tinderuser));
+console.log(Object.keys(tinderuser))
 console.log(Object.values(tinderuser));
 console.log(tinderuser.hasOwnProperty("isloogedin"));
