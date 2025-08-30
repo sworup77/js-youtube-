@@ -28,3 +28,13 @@ console.log(obj3);
 console.log(Object.keys(tinderuser))
 console.log(Object.values(tinderuser));
 console.log(tinderuser.hasOwnProperty("isloogedin"));
+
+//destructing 
+const course ={
+    coursename: "jjs in nepali",
+    price:"999",
+    courseinstructor: "sworup",
+};
+
+const {courseinstructor: instructor}= course;
+console.log(instructor);
