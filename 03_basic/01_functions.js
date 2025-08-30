@@ -1,3 +1,5 @@
+const { use } = require("react");
+
 function saymyname(){
   console.log("s");
   console.log("w");
@@ -26,3 +28,27 @@ function loginusermessage (username){
 }
 
 console.log(loginusermessage("hitesh"));
+
+function calucaltecartprice(...number1){
+  return number1
+}
+
+console.log(calucaltecartprice(200,4000,4000,45,50));
+
+const user ={
+  username:"sworup",
+  price:1234
+}
+
+function handleobject (anyobject){
+  console.log(`username is ${anyobject.username} nad the pricce is ${anyobject.price}`);
+}
+
+handleobject(user);
+
+
+const mynewarray = [100,200,300];
+function returnsecondvalue (getarray){
+  return getarray[0];
+}
+console.log(returnsecondvalue(mynewarray));
