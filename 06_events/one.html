@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html events</title>
+</head>
+<body>
+    <h2 id="owl">amazing image</h2>
+</body>
+<script>
+    document.getElementById("owl").onclick = function (){
+        alert("owl clcik ");
+    }
+
+    document.getElementById("owl").addEventListener("click", function(){
+        alert("owl clciked event")
+    }, false)
+</script>
+</html>

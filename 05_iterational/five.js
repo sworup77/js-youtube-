@@ -19,6 +19,6 @@ const mytotal = mynums.reduce(
 console.log(mytotal);
 
 
-// in this when the code is run first time the accumulator value wi;; be intital value fore eg 0 +1
+// in this when the code is run first time the accumulator value will be intital value fore eg 0 +1
 // after that the code run fist time and produce the output 
 // when we get the output of the first run 0+1 =1. it is the accumulator of second second run  for eg 1+2 = 3
